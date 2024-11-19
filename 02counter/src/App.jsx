@@ -22,7 +22,7 @@ function App() {
   const removeValue = () => {
     console.log('value removed', counter);
     counter = counter - 1; 
-    if(counter >= 0){
+    if(counter >= 0 ){
       setCounter(counter) 
     } else {
       setCounter(counter = 0) 
